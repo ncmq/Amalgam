@@ -265,7 +265,7 @@ void CMenu::MenuAimbot()
 			if (Section("Anti Aim"))
 			{
 				FToggle("Enabled", Vars::AntiHack::AntiAim::Enabled);
-				FDropdown("Real pitch", Vars::AntiHack::AntiAim::PitchReal, { "None", "Up", "Down", "Zero" }, {}, FDropdown_Left);
+				FDropdown("Real pitch", Vars::AntiHack::AntiAim::PitchReal, { "None", "Up", "Down", "Zero", "Random" }, {}, FDropdown_Left);
 				FDropdown("Fake pitch", Vars::AntiHack::AntiAim::PitchFake, { "None", "Up", "Down" }, {}, FDropdown_Right);
 				FDropdown("Real yaw", Vars::AntiHack::AntiAim::YawReal, { "Forward", "Left", "Right", "Backwards", "Spin", "Edge" }, {}, FDropdown_Left);
 				FDropdown("Fake yaw", Vars::AntiHack::AntiAim::YawFake, { "Forward", "Left", "Right", "Backwards", "Spin", "Edge" }, {}, FDropdown_Right);
